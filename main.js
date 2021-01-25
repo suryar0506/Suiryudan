@@ -41,9 +41,11 @@ window.addEventListener("keydown",my_keydown);
         keyPressed = e.keyCode;
         console.log(keyPressed);
         if (keyPressed == '38'){
+          
           console.log("up");
         }
         if (keyPressed == '39'){
+          
           console.log("right");
         }
         if (keyPressed == '37'){
@@ -55,15 +57,19 @@ window.addEventListener("keydown",my_keydown);
           console.log("down");
         }
         if (keyPressed == '65'){
-            console.log("a(left)");
+            
+          console.log("a(left)");
           }
-          if (keyPressed == '87'){
-            console.log("w(up)");
+        if (keyPressed == '87'){
+            
+          console.log("w(up)");
           }
-          if (keyPressed == '70'){
-            console.log("d(right)");
+        if (keyPressed == '70'){
+            
+          console.log("d(right)");
           }
-          if (keyPressed == '83'){
-            console.log("s(down)");
+        if (keyPressed == '83'){
+            
+          console.log("s(down)");
           }
     }
